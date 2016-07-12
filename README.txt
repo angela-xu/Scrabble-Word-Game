@@ -1,3 +1,4 @@
+# README
 This is a word game that is a lot like Scrabble or Words With Friends. Letters are dealt to players, who then construct one or more words out of their letters. 
 Each valid word receives a score, based on the length of the word and the letters in that word. 
 Users can play the game by themselves or let the computer to play it!
