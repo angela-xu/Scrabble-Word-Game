@@ -9,7 +9,7 @@ Users can play the game by themselves or let the computer play the game.
 ## Rules of the game
  
 #### Dealing
-* A player is dealt a hand of n letters chosen at random (assume n = 7 in code).
+* A player is dealt a hand of n letters chosen at random (assume n = 7 in this library).
 * The player arranges the hand into as many words as they want out of the letters, using each letter at most once.
 * Some letters may remain unused (these won't be scored).
 
