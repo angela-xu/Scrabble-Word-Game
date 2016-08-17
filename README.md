@@ -1,7 +1,7 @@
 # Scrabble Word Game
 ## Introduction
 This is an interactive word creation game that is a lot like Scrabble or Words With Friends. Letters are dealt to players, who then construct one or more words out of their letters. Each valid word receives a score, based on the length of the word and the letters in that word. Users can choose to play the game by themselves or to let the computer play.
-* Code is written in Python.
+* This game is written in Python 2, and may need some adjustment to run under Python 3.
 * Four files are included: 1) helper_functions.py; 2) user_play.py; 3) computer_play.py; 4) word.txt.
 
 ## Rules of the game
@@ -21,7 +21,7 @@ This is an interactive word creation game that is a lot like Scrabble or Words W
   an additional 50 points bonus for using all n letters).
   
 #### Playing
- Users can play an arbitray number of hands and can choose to play the game by themselves or to let the computer play.
+* Users can play an arbitray number of hands and can choose to play the game by themselves or to let the computer play.
 
 ## Installation and Usages
 * Downlaod all files in this repository and save them in the same folder.
