@@ -3,9 +3,7 @@ from user_play import *
 import time
 
 
-#
 # #1: Computer chooses a word
-#
 def compChooseWord(hand, wordList, n):
     """
     Given a hand and a wordList, find the word that gives 
@@ -41,9 +39,7 @@ def compChooseWord(hand, wordList, n):
     return temp_best_word
 
 
-#
 # #2: Computer plays a hand
-#
 def compPlayHand(hand, wordList, n):
     """
     Allows the computer to play the given hand, following the same procedure
@@ -82,9 +78,8 @@ def compPlayHand(hand, wordList, n):
     print('Total score: ' + str(total) + ' points.')
     print('')
 
-#
+
 # #3: Playing a game -- both users and computer
-#
 def playGame(wordList):
     """
     Allow the user to play an arbitrary number of hands.
@@ -149,11 +144,8 @@ def playGame(wordList):
             print('Invalid command.')
 
         
-#
 # Build data structures used for entire session and play game
-#
 if __name__ == '__main__':
     wordList = loadWords()
     playGame(wordList)
-
 

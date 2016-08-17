@@ -1,9 +1,7 @@
 from helper_functions import *
 
 
-#
 # #1: Users play a hand
-#
 def playHand(hand, wordList, n):
     """
     Allows the user to play the given hand, as follows:
@@ -50,9 +48,7 @@ def playHand(hand, wordList, n):
         print('Run out of letters. Total score: ' + str(total) + ' points')
 
 
-#
-# #2: Users play the game
-# 
+# #2: Users play the game 
 def playGame(wordList):
     """
     Allow the user to play an arbitrary number of hands.
@@ -87,7 +83,6 @@ def playGame(wordList):
     print('\n')
 
 
-#
 # Build data structures used for entire session and play game
 #
 if __name__ == '__main__':
