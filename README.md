@@ -7,7 +7,7 @@ This is an interactive word creation game that is a lot like Scrabble or Words W
 ## Rules of the game
  
 #### Dealing
-* A player is dealt a hand of n letters chosen at random (assume n = 7 in this library).
+* A player is dealt a hand of n letters chosen at random (assume n = 7 in this case).
 * The player arranges the hand into as many words as they want out of the letters, using each letter at most once.
 * Some letters may remain unused (these won't be scored).
 
